@@ -1,0 +1,28 @@
+{
+  "name": "planning-bot-discord-api",
+  "version": "1.0.0",
+  "description": "api for planninggi bot",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/eserban/planning-bot-discord-api.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/eserban/planning-bot-discord-api/issues"
+  },
+  "homepage": "https://github.com/eserban/planning-bot-discord-api#readme",
+  "dependencies": {
+    "bcrypt": "^5.0.1",
+    "cookie-parser": "^1.4.5",
+    "cors": "^2.8.5",
+    "discord.js": "^13.3.1",
+    "express": "^4.17.1",
+    "jsonwebtoken": "^8.5.1"
+  }
+}
